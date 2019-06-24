@@ -1,0 +1,31 @@
+{
+  "name": "permissioncleanup",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "author": "Geo☆1088#2272",
+  "contributors": ["ElJay#7711", "InGameBrain#3149"],
+  "description": "A discord bot that cleans up messy permissions for you.",
+  "keywords": [
+    "discord",
+    "bot",
+    "permission",
+    "cleanup"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "better-sqlite3": "^5.4.0",
+    "eris": "^0.10.0",
+    "patron.js": "github:LJNeon/patron.js"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJNeon/PermissionCleanup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LJNeon/PermissionCleanup/issues"
+  },
+  "homepage": "https://github.com/LJNeon/PermissionCleanup#readme"
+}
