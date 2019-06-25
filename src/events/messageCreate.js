@@ -9,5 +9,8 @@ client.on("messageCreate", async msg => {
 		return;
 
 	const result = await handler.run(msg, config.prefix.length);
-	// TODO: Handle result if failure.
+
+	// TODO: Handle result better if failure.
+	if (!result.success)
+		console.error(result);
 });
