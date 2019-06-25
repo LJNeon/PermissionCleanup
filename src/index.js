@@ -22,8 +22,8 @@ function requireAll(dir) {
 	const registry = require("./services/registry.js");
 
 	registry
-		//.registerArgumentPreconditions(await requireAll("./preconditions/argument/"))
-		//.registerPreconditions(await requireAll("./preconditions/command/"))
+		// .registerArgumentPreconditions(await requireAll("./preconditions/argument/"))
+		.registerPreconditions(await requireAll("./preconditions/command/"))
 		.registerTypeReaders(await requireAll("./readers/"))
 		.registerGroups(await requireAll("./groups/"))
 		.registerCommands(await requireAll("./commands/"));
