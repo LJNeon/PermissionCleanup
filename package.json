@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "license": "Apache-2.0",
   "author": "Geo☆1088#2272",
-  "contributors": ["ElJay#7711", "InGameBrain#3149"],
+  "contributors": [
+    "ElJay#7711",
+    "InGameBrain#3149"
+  ],
   "description": "A discord bot that cleans up messy permissions for you.",
   "keywords": [
     "discord",
@@ -27,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/LJNeon/PermissionCleanup/issues"
   },
-  "homepage": "https://github.com/LJNeon/PermissionCleanup#readme"
+  "homepage": "https://github.com/LJNeon/PermissionCleanup#readme",
+  "devDependencies": {
+    "eslint": "^6.0.0"
+  }
 }
